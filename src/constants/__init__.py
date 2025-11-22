@@ -6,14 +6,15 @@ DATABASE_NAME = "Proj1"
 COLLECTION_NAME = "Proj1-Data"
 MONGODB_URL_KEY = "MONGODB_URL"
 
+# config entity
 PIPELINE_NAME: str = ""
-ARTIFACT_DIR: str = "a rtifact"
+ARTIFACT_DIR: str = "artifact"
 
 MODEL_FILE_NAME = "model.pkl"
 
 TARGET_COLUMN = "Response"
 CURRENT_YEAR = date.today().year
-PREPROCSSING_OBJECT_FILE_NAME = "preprocessing.pkl"
+PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 
 FILE_NAME: str = "data.csv"
 TRAIN_FILE_NAME: str = "train.csv"

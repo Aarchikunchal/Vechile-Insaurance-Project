@@ -47,3 +47,12 @@
     To setup the connection url on Windows, open env variable setting option and add a new variable:
     Name: MONGODB_URL, Value = <url>
     Also add "artifact" dir to .gitignore file
+
+---------------------------------------------------------------DATA VALIDATION,DATA TANSFORMATION & MODEL TRAINER--------------------------------------------------
+19. Complete the work on utils.main_utils.py and config.schema.yaml file(add enteries info about dataset for validation step)
+20. Now works on data validation components the way we did in setp 17 for data Ingestion(Workflow mentioned below)
+21. Now work on data transformation component the way we did in above step (add estimator.py to entity folder)
+22. Now work on the model trainer compnent the way we did in above step (add class to estimator.py in entity folder)
+
+
+
